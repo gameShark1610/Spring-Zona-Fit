@@ -6,6 +6,7 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import lombok.*;
 
+
 @Entity
 @Data //Con esto generamos los metodos Get y Set de cada atributo de nuestra entidad/Clase
 @NoArgsConstructor //Crea un constructor vacio en nuestra clase
@@ -19,6 +20,4 @@ public class Cliente {
     private String nombre;
     private String apellido;
     private Integer membresia;
-
-
 }
